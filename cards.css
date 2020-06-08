@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+#shuffleRootWrap {
+    width: 440px;
+    margin: 0px auto;
+    background: #EFEFEF;
+    overflow: auto;
+}
+
+#shuffleRootWrap p {
+    text-align: center;
+    font-weight: 700;
+}
+
+#ShuffleBtns {
+    float: right;
+}
+
+.btn {
+    color: #fff;
+    margin: 0px 10px 10px 0;
+    border: none;
+    padding: 10px;
+    width: 130px;
+    background: #72C3DC;
+    display: block;
+    margin-right: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#ShuffleBox {
+    float: left;
+    width: 290px;
+}
+
+#ShuffleBox div {
+    float: left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.bottomDetails {
+    clear: both;
+    padding-top: 20px;
+}
+
+.lightBlue {
+    background: #6F98A8;
+}
+
+.blue {
+    background: #2B8EAD;
+}
+
+.grey {
+    background: #BFBFBF;
+}
+
+.darkBlue {
+    background: #2F454E;
+}
+
+@media only screen and (max-width: 375px) {
+    #shuffleRootWrap {
+        width: 375px;
+        padding: 10px;
+        background: #000;
+        box-sizing: border-box;
+    }
+
+    #shuffleRootWrap p {
+        color: #fff;
+        font-size: 20px;
+        background: #333333;
+        padding: 10px;
+        margin: 0;
+    }
+
+    #shuffleRoot {
+        background: #fff;
+    }
+
+    #ShuffleBtns {
+        float: none;
+        clear: both;
+        padding: 10px 24%;
+    }
+
+    .btn {
+        display: inline-block;
+        width: 90px;
+        margin: 0;
+    }
+
+    #ShuffleBox {
+        padding: 0 10px;
+        width: 100%;
+        float: none;
+        overflow: auto;
+        box-sizing: border-box;
+    }
+
+    #ShuffleBox div {
+        float: none;
+        padding: 7px 0;
+        color: #000;
+        background: #EFEFEF;
+        clear: both;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .bottomDetails {
+        background: #fff !important;
+        color: #000 !important;
+        clear: both;
+        padding-top: 20px;
+    }
+
+    .lightBlue {
+        border-left: 10px solid #6F98A8;
+    }
+
+    .blue {
+        border-left: 10px solid #2B8EAD;
+    }
+
+    .grey {
+        border-left: 10px solid #BFBFBF;
+    }
+
+    .darkBlue {
+        border-left: 10px solid #2F454E;
+    }
+}
